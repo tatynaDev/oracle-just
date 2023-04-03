@@ -1,0 +1,37 @@
+@media (max-width: 1600px) {
+  .header-block {
+    ul {
+      li {
+        margin: 0 30px;
+        font-size: 20px;
+      }
+    }
+  }
+  .main {
+    padding: 250px 0 0 0;
+  }
+  .development {
+    padding: 50px 0 0 50px;
+    &--blocks__block {
+      width: 365px;
+      height: 300px;
+      padding: 40px 20px 30px 26px;
+      margin: 15px 20px;
+    }
+    &--info__right--description {
+      margin-top: 50px;
+    }
+    .development--info__right--des {
+      margin-top: 5px;
+    }
+    &--info__left{
+      img{
+        width: 657px;
+      }
+    }
+  }
+  .technologies--logos {
+    margin: 60px 0 125px 150px;
+    width: 1200px;
+  }
+}

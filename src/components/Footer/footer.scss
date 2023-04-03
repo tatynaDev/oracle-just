@@ -1,0 +1,67 @@
+.footer{
+  background: #02040A;
+  padding: 60px 0;
+  &--content{
+    &__info{
+      display: flex;
+      align-items: start;
+      padding-top: 30px;
+      justify-content: space-between;
+      .first{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        a{
+          text-decoration: none;
+        }
+        .tel{
+          color: #FFFFFF;
+        }
+        .tel1{
+          margin: 10px 0 0 0;
+        }
+        .tel2{
+          margin: 8px 0 10px 0 ;
+        }
+        &-flex{
+          display: flex;
+          align-items: center;
+          padding-top: 40px;
+          p{
+            width: 160px;
+            margin-bottom: 20px;
+          }
+          &__icon{
+            color: #FFFFFF;
+            font-size: 24px;
+            margin-left: 12px;
+          }
+        }
+      }
+      .second{
+        &-block{
+          margin-top: 20px;
+        }
+        &--title{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #5699E8;
+          margin-bottom: 15px;
+        }
+        &--text{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+      }
+      .third{
+        &--card{
+          width: 360px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
